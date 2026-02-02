@@ -55,11 +55,9 @@ export default function Hero() {
 
           {/* CTA Button */}
           <div className="flex justify-center">
-            <Link href="https://app.octarine.finance/" target="_blank" rel="noopener noreferrer">
-              <Button className="bg-black text-white hover:bg-gray-700 hover:shadow-lg hover:shadow-black/20 active:scale-95 rounded-lg px-6 sm:px-8 py-2 sm:py-3 text-xs sm:text-sm font-medium transition-all duration-200">
-                Start Trading
-              </Button>
-            </Link>
+            <Button disabled className="bg-gray-400 text-white cursor-not-allowed rounded-lg px-6 sm:px-8 py-2 sm:py-3 text-xs sm:text-sm font-medium transition-all duration-200">
+              Coming Soon
+            </Button>
           </div>
         </div>
       </div>
