@@ -10,8 +10,9 @@ const _alexandria = Alexandria({ subsets: ["latin"], variable: "--font-alexandri
 const _inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: "Octarine - Instant Liquidity for Real-World Assets",
+  description:
+    "Trade tokenized securities like Private Credit, Treasuries, Commodities, and any RWA with atomic onchain settlement and zero slippage.",
   generator: 'v0.app',
   icons: {
     icon: [
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: "/octarine-logo.svg",
   },
 }
 
