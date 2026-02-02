@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="bg-background text-foreground py-8 sm:py-12 lg:py-16 border-t border-foreground/20">
       <div className="flex justify-center">
         <div className="w-full max-w-7xl px-4 sm:px-8 lg:px-20">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+          <div className="flex flex-col sm:flex-row justify-between items-start gap-8 sm:gap-12">
             <div>
               <div className="flex items-center gap-2 mb-3 sm:mb-4">
                 <Image src="/images/logo.png" alt="Octarine" width={24} height={24} />
@@ -22,31 +22,33 @@ export default function Footer() {
               </Link>
             </div>
 
-            <div>
-              <h4 className="font-semibold text-sm sm:text-base mb-3 sm:mb-4">Resources</h4>
-              <nav className="flex flex-col gap-2 sm:gap-3 text-xs sm:text-sm">
-                <Link href="https://docs.octarine.finance/" className="text-foreground/70 hover:text-foreground transition-colors">
-                  Documentation
-                </Link>
-                <Link href="https://curator-api.mysticfinance.xyz/docs/#/rfq" className="text-foreground/70 hover:text-foreground transition-colors">
-                  API Reference
-                </Link>
-              </nav>
-            </div>
+            <div className="flex gap-8 sm:gap-6">
+              <div>
+                <h4 className="font-semibold text-sm sm:text-base mb-3 sm:mb-4">Resources</h4>
+                <nav className="flex flex-col gap-2 sm:gap-3 text-xs sm:text-sm">
+                  <Link href="https://docs.octarine.finance/" className="text-foreground/70 hover:text-foreground transition-colors">
+                    Documentation
+                  </Link>
+                  <Link href="https://curator-api.mysticfinance.xyz/docs/#/rfq" className="text-foreground/70 hover:text-foreground transition-colors">
+                    API Reference
+                  </Link>
+                </nav>
+              </div>
 
-            <div>
-              <h4 className="font-semibold text-sm sm:text-base mb-3 sm:mb-4">Protocol</h4>
-              <nav className="flex flex-col gap-2 sm:gap-3 text-xs sm:text-sm">
-                <Link href="mailto:hello@mysticfinance.xyz" className="text-foreground/70 hover:text-foreground transition-colors">
-                  Contact
-                </Link>
-                <Link href="https://docs.octarine.finance/useful-links/terms-of-use" className="text-foreground/70 hover:text-foreground transition-colors">
-                  Terms of Use
-                </Link>
-                <Link href="https://docs.octarine.finance/useful-links/privacy-policy" className="text-foreground/70 hover:text-foreground transition-colors">
-                  Privacy Policy
-                </Link>
-              </nav>
+              <div>
+                <h4 className="font-semibold text-sm sm:text-base mb-3 sm:mb-4">Protocol</h4>
+                <nav className="flex flex-col gap-2 sm:gap-3 text-xs sm:text-sm">
+                  <Link href="mailto:hello@mysticfinance.xyz" className="text-foreground/70 hover:text-foreground transition-colors">
+                    Contact
+                  </Link>
+                  <Link href="https://docs.octarine.finance/useful-links/terms-of-use" className="text-foreground/70 hover:text-foreground transition-colors">
+                    Terms of Use
+                  </Link>
+                  <Link href="https://docs.octarine.finance/useful-links/privacy-policy" className="text-foreground/70 hover:text-foreground transition-colors">
+                    Privacy Policy
+                  </Link>
+                </nav>
+              </div>
             </div>
           </div>
         </div>
