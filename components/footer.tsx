@@ -22,7 +22,7 @@ export default function Footer() {
               </Link>
             </div>
 
-            <div className="flex gap-8 sm:gap-6">
+            <div className="flex gap-16 sm:gap-20">
               <div>
                 <h4 className="font-semibold text-sm sm:text-base mb-3 sm:mb-4">Resources</h4>
                 <nav className="flex flex-col gap-2 sm:gap-3 text-xs sm:text-sm">
