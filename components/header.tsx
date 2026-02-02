@@ -38,8 +38,8 @@ export default function Header() {
             <a href="https://curator-api.mysticfinance.xyz/docs/#/rfq" className="text-xs sm:text-sm font-medium text-gray-600 hover:text-gray-800 transition-colors">
               API
             </a>
-            <Button className="bg-black text-white hover:bg-gray-700 hover:shadow-lg hover:shadow-black/20 active:scale-95 rounded-lg px-4 sm:px-6 py-2 text-xs sm:text-sm font-medium transition-all duration-200">
-              Start Trading
+            <Button disabled className="bg-gray-400 text-white cursor-not-allowed rounded-lg px-4 sm:px-6 py-2 text-xs sm:text-sm font-medium transition-all duration-200">
+              Coming Soon
             </Button>
           </div>
 
@@ -83,8 +83,8 @@ export default function Header() {
             >
               API
             </a>
-            <Button className="w-full bg-black text-white hover:bg-gray-700 hover:shadow-lg hover:shadow-black/20 active:scale-95 rounded-lg px-4 py-2 text-sm font-medium transition-all duration-200 mt-2">
-              Start Trading
+            <Button disabled className="w-full bg-gray-400 text-white cursor-not-allowed rounded-lg px-4 py-2 text-sm font-medium transition-all duration-200 mt-2">
+              Coming Soon
             </Button>
           </div>
         </div>
