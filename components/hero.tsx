@@ -35,9 +35,10 @@ export default function Hero() {
           {/* Headline */}
           <h1 className="font-alexandria font-semibold text-2xl sm:text-3xl md:text-4xl lg:text-[42px] leading-[1.1] text-black mb-4 sm:mb-6">
             Instant Liquidity For <br />
-            <span 
+            <span
               className="inline-block min-w-[140px] sm:min-w-[200px] md:min-w-[280px] lg:min-w-[360px] transition-all duration-[400ms] ease-in-out"
               style={{
+                color: '#DD7A28',
                 opacity: isAnimating ? 0 : 1,
                 transform: isAnimating ? 'translateY(8px)' : 'translateY(0)',
                 filter: isAnimating ? 'blur(4px)' : 'blur(0px)',
@@ -50,12 +51,12 @@ export default function Hero() {
           {/* Description */}
           <p className="font-inter font-normal text-sm sm:text-base md:text-lg lg:text-[18px] leading-[1.4] text-black mb-8 sm:mb-16">
             Instant RWA-stablecoin swaps based on a NAV-aware<br className="hidden sm:block" />
-            RFQ process. No slippage, 24/7 atomic execution.
+            RFQ process. No slippage, 24/7 execution.
           </p>
 
           {/* CTA Button */}
           <div className="flex justify-center">
-            <Button disabled className="bg-gray-400 text-white cursor-not-allowed rounded-lg px-6 sm:px-8 py-2 sm:py-3 text-xs sm:text-sm font-medium transition-all duration-200">
+            <Button disabled className="bg-[#DD7A28]/50 text-white cursor-not-allowed rounded-lg px-6 sm:px-8 py-2 sm:py-3 text-xs sm:text-sm font-medium transition-all duration-200">
               Coming Soon
             </Button>
           </div>
