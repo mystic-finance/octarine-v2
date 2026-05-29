@@ -13,13 +13,13 @@ export default function LiquidationFallbacks() {
           {/* Text Content */}
           <div className="flex-1">
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-3xl font-semibold text-black leading-tight mb-4 sm:mb-6">
-              Custom liquidation fallbacks<br />for <span style={{ color: '#DD7A28' }}>RWAs</span>
+              Custom liquidation fallbacks<br />for RWAs
             </h2>
             <p className="font-inter font-normal text-sm sm:text-base lg:text-[18px] leading-[1.4] text-black mb-6 sm:mb-8">
               Octarine backstops RWA liquidations in lending markets and enables custom liquidation flows for them, such as dutch auctions and soft liquidations. Reach out to know more.
             </p>
             <Link href="mailto:hello@mysticfinance.xyz">
-              <Button className="bg-[#DD7A28] text-white hover:bg-[#c46a20] hover:shadow-lg hover:shadow-[#DD7A28]/20 active:scale-95 rounded-lg px-6 sm:px-8 py-2 sm:py-3 text-xs sm:text-sm font-medium transition-all duration-200">
+              <Button className="bg-black text-white hover:bg-gray-700 hover:shadow-lg hover:shadow-black/20 active:scale-95 rounded-lg px-6 sm:px-8 py-2 sm:py-3 text-xs sm:text-sm font-medium transition-all duration-200">
                 Contact us
               </Button>
             </Link>

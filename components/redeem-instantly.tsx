@@ -15,7 +15,7 @@ export default function RedeemInstantly() {
                 <div className="inline-flex items-center bg-white rounded-full px-3 sm:px-4 py-1.5 sm:py-2 w-fit mb-4 sm:mb-8">
                   <span className="text-xs sm:text-sm text-gray-600 font-semibold">{"The First RWA DEX"}</span>
                 </div>
-                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-3 sm:mb-6">Redeem RWAs <span style={{ color: '#DD7A28' }}>Instantly</span></h2>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-3 sm:mb-6">{"Redeem RWAs Instantly"}</h2>
                 <p className="text-sm sm:text-base text-gray-600">Octarine is the first RWA DEX of its kind. NAV-based swaps,<br />fully built for institutions. Welcome to<br />the future of markets.</p>
               </div>
             </div>

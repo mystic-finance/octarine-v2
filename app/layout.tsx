@@ -15,21 +15,8 @@ export const metadata: Metadata = {
     "Trade tokenized securities like Private Credit, Treasuries, Commodities, and any RWA with instant onchain settlement and zero slippage.",
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: "/octarine-logo.svg",
+    icon: '/images/octarine-logo.svg',
+    apple: '/images/octarine-logo.svg',
   },
 }
 
