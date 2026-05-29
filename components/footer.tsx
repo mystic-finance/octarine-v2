@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="flex flex-col sm:flex-row justify-between items-start gap-8 sm:gap-12">
             <div>
               <div className="flex items-center gap-2 mb-3 sm:mb-4">
-                <Image src="/images/logo.png" alt="Octarine" width={24} height={24} />
+                <Image src="/images/octarine-logo.svg" alt="Octarine" width={24} height={24} />
                 <span className="font-bold text-base sm:text-lg">Octarine</span>
               </div>
               <p className="text-xs sm:text-sm text-foreground/70 mb-3 sm:mb-4">

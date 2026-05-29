@@ -12,7 +12,7 @@ const _inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 export const metadata: Metadata = {
   title: "Octarine - Instant Liquidity for Real-World Assets",
   description:
-    "Trade tokenized securities like Private Credit, Treasuries, Commodities, and any RWA with atomic onchain settlement and zero slippage.",
+    "Trade tokenized securities like Private Credit, Treasuries, Commodities, and any RWA with instant onchain settlement and zero slippage.",
   generator: 'v0.app',
   icons: {
     icon: [

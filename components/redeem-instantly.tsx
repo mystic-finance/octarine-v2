@@ -15,8 +15,8 @@ export default function RedeemInstantly() {
                 <div className="inline-flex items-center bg-white rounded-full px-3 sm:px-4 py-1.5 sm:py-2 w-fit mb-4 sm:mb-8">
                   <span className="text-xs sm:text-sm text-gray-600 font-semibold">{"The First RWA DEX"}</span>
                 </div>
-                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-3 sm:mb-6">{"Redeem RWAs Instantly"}</h2>
-                <p className="text-sm sm:text-base text-gray-600">Octarine is the first RWA DEX of its kind. Atomic swaps,<br />based on NAV and fully built for institutions. Welcome to<br />the future of markets.</p>
+                <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-3 sm:mb-6">Redeem RWAs <span style={{ color: '#DD7A28' }}>Instantly</span></h2>
+                <p className="text-sm sm:text-base text-gray-600">Octarine is the first RWA DEX of its kind. NAV-based swaps,<br />fully built for institutions. Welcome to<br />the future of markets.</p>
               </div>
             </div>
 
@@ -110,7 +110,7 @@ export default function RedeemInstantly() {
 
             {/* Logo Card - Right aligned */}
             <div className="hidden lg:flex bg-white rounded-2xl border border-gray-200 flex-col justify-center items-center" style={{flex: '0 0 calc(23% - 8px)', minHeight: '240px'}}>
-              <Image src="/images/octarine-logo.png" alt="Octarine Logo" width={80} height={80} />
+              <Image src="/images/octarine-logo.svg" alt="Octarine Logo" width={80} height={80} />
             </div>
           </div>
 
@@ -130,17 +130,17 @@ export default function RedeemInstantly() {
               </div>
             </div>
 
-            {/* Atomic Card */}
+            {/* Execution Card */}
             <div className="rounded-xl sm:rounded-2xl p-4 sm:p-8 border border-gray-200 flex flex-col justify-between w-full sm:w-1/2" style={{backgroundColor: '#F2F2F7', minHeight: '240px', height: 'auto'}}>
               <div className="inline-flex items-center gap-2 bg-white rounded-full px-2.5 sm:px-3 py-1 sm:py-1.5 w-fit">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
                 </svg>
-                <h3 className="font-semibold text-black text-xs sm:text-sm">Atomic</h3>
+                <h3 className="font-semibold text-black text-xs sm:text-sm">Instant</h3>
               </div>
               <div>
-                <h4 className="text-sm sm:text-base font-bold text-black mb-1 sm:mb-2">Atomic, lightning-fast execution</h4>
-                <p className="text-xs sm:text-sm text-gray-700">All swaps are atomic, so you risk nothing. And<br className="hidden sm:block" />we execute the swaps in seconds, not<br className="hidden sm:block" />minutes. No waiting around.</p>
+                <h4 className="text-sm sm:text-base font-bold text-black mb-1 sm:mb-2">Lightning-fast execution</h4>
+                <p className="text-xs sm:text-sm text-gray-700">All swaps settle in a single transaction, so you risk<br className="hidden sm:block" />nothing. And we execute the swaps in seconds, not<br className="hidden sm:block" />minutes. No waiting around.</p>
               </div>
             </div>
           </div>
