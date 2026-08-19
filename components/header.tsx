@@ -25,9 +25,8 @@ export default function Header() {
       <div className="h-16 sm:h-20 flex items-center justify-center">
         <div className="w-full max-w-7xl px-4 sm:px-8 lg:px-20 flex items-center justify-between">
           {/* Logo - Always visible */}
-          <div className="flex items-center gap-2.5">
-            <Image src="/images/octarine-logo.svg" alt="Octarine" width={24} height={24} priority />
-            <span className="font-semibold text-base sm:text-lg text-black">Octarine</span>
+          <div className="flex items-center">
+            <Image src="/images/octarine-lockup.svg" alt="Octarine by Mystic" width={260} height={60} priority className="h-8 w-auto sm:h-10" />
           </div>
 
           {/* Desktop Navigation */}
