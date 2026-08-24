@@ -11,7 +11,7 @@ export default function Footer() {
           <div className="flex flex-col sm:flex-row justify-between items-start gap-8 sm:gap-12">
             <div>
               <div className="flex items-center mb-3 sm:mb-4">
-                <Image src="/images/octarine-lockup.svg" alt="Octarine by Mystic" width={260} height={60} className="h-8 w-auto sm:h-10" />
+                <Image src="/images/octarine-lockup.svg" alt="Octarine by Mystic" width={235} height={59} className="h-7 w-auto sm:h-9" />
               </div>
               <p className="text-xs sm:text-sm text-foreground/70 mb-3 sm:mb-4">
                 © 2026 Octarine. All rights reserved.
