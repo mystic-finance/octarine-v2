@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button'
 
 export default function Hero() {
-  const phrases = ['Real-World Assets', 'US Treasuries', 'Tokenized Funds', 'Private Credit']
+  const phrases = ['Real-World Assets', 'US Treasuries', 'Tokenized Funds', 'Private Credit', 'Tokenized Stocks']
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isAnimating, setIsAnimating] = useState(false)
 
