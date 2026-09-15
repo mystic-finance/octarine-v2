@@ -55,8 +55,8 @@ export default function Hero() {
 
           {/* CTA Button */}
           <div className="flex justify-center">
-            <Button disabled className="bg-gray-400 text-white cursor-not-allowed rounded-lg px-6 sm:px-8 py-2 sm:py-3 text-xs sm:text-sm font-medium transition-all duration-200">
-              Coming Soon
+            <Button asChild className="rounded-lg px-6 sm:px-8 py-2 sm:py-3 text-xs sm:text-sm font-medium">
+              <a href="https://app.octarine.finance">Launch App</a>
             </Button>
           </div>
         </div>
